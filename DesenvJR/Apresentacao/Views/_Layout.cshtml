@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="iso-8859-1"/>
+    <title>Nibo Importação</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap-dialog.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        .titulo {
+            width: 80%;
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .menu {
+            height: 50px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .botoes {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="titulo">
+        <img src="~/Images/logo-nibo.png" />
+    </div>
+    <br />
+    <hr />
+    <br />
+    <section>
+        @RenderBody()
+    </section>
+</body>
+</html>

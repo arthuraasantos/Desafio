@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\bin\Debug\Console.exe.config
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\bin\Debug\Console.exe
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\bin\Debug\Console.pdb
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\bin\Debug\Tools.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\bin\Debug\Tools.pdb
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\obj\Debug\Console.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\obj\Debug\Console.exe
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Console\obj\Debug\Console.pdb

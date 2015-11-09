@@ -1,0 +1,4 @@
+C:\git\Desafio\DesenvJR\Tools\bin\Release\Tools.dll
+C:\git\Desafio\DesenvJR\Tools\bin\Release\Tools.pdb
+C:\git\Desafio\DesenvJR\Tools\obj\Release\Tools.dll
+C:\git\Desafio\DesenvJR\Tools\obj\Release\Tools.pdb

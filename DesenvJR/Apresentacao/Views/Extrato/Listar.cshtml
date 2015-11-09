@@ -1,0 +1,116 @@
+﻿@{
+    ViewBag.Title = "Nibo Importação";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<script></script>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+@model List<Infra.Entity.Transacao>
+<div class="listagem">
+    @if (Model.Count == 0)
+    {
+        <div>
+            <a href="/Home/Index" class="btn btn-primary" style="float:right">
+                <i class="glyphicon glyphicon-arrow-left">&nbsp;Voltar</i>
+            </a>
+            <br />
+            <br />
+            <p class="alert alert-info"> Extrato sem movimentos</p>
+
+        </div>
+        
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td colspan="5">
+                        <h4>Saldo Atual: R$  @ViewBag.Saldo</h4>
+                    </td>
+                    <td colspan="1" style="float:right">
+                        <a href="/Home/Index" class="btn btn-primary">
+                            <i class="glyphicon glyphicon-arrow-left">&nbsp;Voltar</i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Valor(R$)</th>
+                    <th>Num. Transação(Banco)</th>
+                    <th>Num. Transação(Interno)</th>
+                    <th>Observação</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Data.Date.ToString("dd/MM/yyyy")</td>
+
+                        @if (item.Type == "CREDIT")
+                        {
+                            <td>Crédito</td>
+                            <td class="credito">R$&nbsp;@item.Amount</td>
+                        }
+                        else if (item.Type == "DEBIT")
+                        {
+                            <td>Débito</td>
+                            <td class="debito">R$&nbsp; @item.Amount.ToString()</td>
+                        }
+                        <td>@item.FitId</td>
+                        <td>@item.Identificador</td>
+                        <td>@item.Description</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+<style>
+    .credito {
+        color: #13a411;
+    }
+
+    .debito {
+        color: #ab0c0c;
+    }
+
+    .titulo {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .h2 {
+    }
+
+    .listagem {
+        width: 90%;
+        padding: 5px;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .progresso {
+        display: none;
+        position: fixed;
+        top: 360px;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: white;
+        border: 1px solid black;
+        height: 90px;
+        width: 120px;
+    }
+</style>
+

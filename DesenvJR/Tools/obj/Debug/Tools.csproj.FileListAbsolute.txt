@@ -1,0 +1,5 @@
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Tools\bin\Debug\Tools.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Tools\bin\Debug\Tools.pdb
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Tools\obj\Debug\Tools.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Tools\obj\Debug\Tools.pdb
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Tools\obj\Debug\Tools.csprojResolveAssemblyReference.cache

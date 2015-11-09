@@ -1,0 +1,14 @@
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\DBDsvJrNibo.mdf
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\DBDsvJrNibo_log.ldf
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\EntityFramework.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\Tools.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\Tools.pdb
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\EntityFramework.xml
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\obj\Debug\Infraestrutura.csprojResolveAssemblyReference.cache
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\obj\Debug\Infra.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\obj\Debug\Infra.pdb
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\Infra.dll.config
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\Infra.dll
+C:\Users\Arthur\Desktop\DSVJR\DesenvJR\Infra\bin\Debug\Infra.pdb

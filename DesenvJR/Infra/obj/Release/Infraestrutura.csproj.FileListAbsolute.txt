@@ -1,0 +1,14 @@
+C:\git\Desafio\DesenvJR\Infra\bin\Release\DBDsvJrNibo.mdf
+C:\git\Desafio\DesenvJR\Infra\bin\Release\DBDsvJrNibo_log.ldf
+C:\git\Desafio\DesenvJR\Infra\bin\Release\Infra.dll.config
+C:\git\Desafio\DesenvJR\Infra\bin\Release\Infra.dll
+C:\git\Desafio\DesenvJR\Infra\bin\Release\Infra.pdb
+C:\git\Desafio\DesenvJR\Infra\bin\Release\EntityFramework.dll
+C:\git\Desafio\DesenvJR\Infra\bin\Release\EntityFramework.SqlServer.dll
+C:\git\Desafio\DesenvJR\Infra\bin\Release\Tools.dll
+C:\git\Desafio\DesenvJR\Infra\bin\Release\Tools.pdb
+C:\git\Desafio\DesenvJR\Infra\bin\Release\EntityFramework.xml
+C:\git\Desafio\DesenvJR\Infra\bin\Release\EntityFramework.SqlServer.xml
+C:\git\Desafio\DesenvJR\Infra\obj\Release\Infraestrutura.csprojResolveAssemblyReference.cache
+C:\git\Desafio\DesenvJR\Infra\obj\Release\Infra.dll
+C:\git\Desafio\DesenvJR\Infra\obj\Release\Infra.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NiboModelStoreContainer" CdmEntityContainer="DBDsvJrNiboEntities">
+    <EntitySetMapping Name="Transacao">
+      <EntityTypeMapping TypeName="NiboModel.Transacao">
+        <MappingFragment StoreEntitySet="Transacao">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="FitId" ColumnName="FitId" />
+          <ScalarProperty Name="Identificador" ColumnName="Identificador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

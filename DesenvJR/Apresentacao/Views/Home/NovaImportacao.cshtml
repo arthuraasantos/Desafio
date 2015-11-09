@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Nova Importacao";
+    Layout = "~/Views/_Layout.cshtml";
+}
+<link type="text/css" rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css ">
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title"> Importação de arquivos .OFX</h3>
+    </div>
+    <div class="panel-body">
+        @model Apresentacao.Models.ImportarNovoArquivo
+        @using (Html.BeginForm("ImportarArquivo", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <label>Selecione o arquivo:</label>
+            <input type="file" id="url" name="arquivo" />
+            <br />
+            <input type="submit" id="btnImportar" value="Importar Arquivo" data-loading-text="Aguarde..." class="btn btn-primary btn-block"/>
+            <br />
+        }
+    </div>
+    <div class="panel-footer">
+        <a href="/Home/Index" class="btn btn-primary">
+            <i class="glyphicon glyphicon-arrow-left">&nbsp;Voltar</i>
+        </a>
+        <br />
+        <br />
+        @if (ViewBag.MsgErro != null)
+        {
+            <p class="alert alert-danger">@ViewBag.MsgErro</p>
+        }
+        else if (ViewBag.Mensagem != null)
+        {
+            <p class="alert alert-success">@ViewBag.Mensagem</p>
+        }
+
+    </div>
+</div>
+<style>
+    .panel-primary {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .panel-body {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    input {
+        border: 2px solid #bdc3c7;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 8px;
+    }
+    .panel-footer{
+        text-align:left;
+    }
+</style>
+
+
+
